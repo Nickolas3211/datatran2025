@@ -1,0 +1,26 @@
+# Dados brutos (arquivo grande, não versionar)
+*.csv
+
+# Outputs gerados automaticamente pelos scripts
+outputs/
+
+# Ambientes virtuais
+venv/
+.env/
+env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Spyder
+.spyderproject.cfg
+.spyproject/
+
+# Jupyter
+.ipynb_checkpoints/
