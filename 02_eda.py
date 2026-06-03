@@ -19,7 +19,9 @@ plt.rcParams['font.family'] = 'DejaVu Sans'
 # -------------------------------------------------------------
 # CARREGAMENTO E LIMPEZA (replicado para o script ser autossuficiente)
 # -------------------------------------------------------------
-df = pd.read_csv('datatran2025.csv', sep=';', encoding='latin1')
+URL = 'https://raw.githubusercontent.com/Nickolas3211/datatran2025/master/datatran2025.csv'
+
+df = pd.read_csv(URL, sep=';', encoding='latin1')
 
 df['latitude']     = df['latitude'].str.replace(',', '.').astype(float)
 df['longitude']    = df['longitude'].str.replace(',', '.').astype(float)

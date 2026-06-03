@@ -10,7 +10,9 @@ import pandas as pd
 # -------------------------------------------------------------
 # CARREGAMENTO
 # -------------------------------------------------------------
-df = pd.read_csv('datatran2025.csv', sep=';', encoding='latin1')
+URL = 'https://raw.githubusercontent.com/Nickolas3211/datatran2025/master/datatran2025.csv'
+
+df = pd.read_csv(URL, sep=';', encoding='latin1')
 
 print("=== DADOS BRUTOS ===")
 print(f"Linhas: {df.shape[0]:,}  |  Colunas: {df.shape[1]}")
