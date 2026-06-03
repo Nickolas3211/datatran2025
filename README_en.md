@@ -1,3 +1,5 @@
+[🇧🇷 Português](README.md) | 🇺🇸 English
+
 # 🚦 Exploratory Data Analysis — Federal Highway Accidents in Brazil (2025)
 
 Exploratory Data Analysis (EDA) project on accidents recorded on Brazilian federal highways in 2025, based on open data from the **Federal Highway Police (PRF)**.
