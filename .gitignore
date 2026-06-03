@@ -1,6 +1,3 @@
-# Outputs gerados automaticamente pelos scripts
-outputs/
-
 # Ambientes virtuais
 venv/
 .env/
