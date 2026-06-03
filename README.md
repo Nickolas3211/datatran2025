@@ -1,3 +1,5 @@
+🇧🇷 Português | [🇺🇸 English](README_en.md)
+
 # 🚦 Análise Exploratória de Dados — Acidentes de Trânsito em Rodovias Federais (2025)
 
 Projeto de Análise Exploratória de Dados (AED) sobre acidentes registrados em rodovias federais brasileiras no ano de 2025, com base nos dados abertos da **Polícia Rodoviária Federal (PRF)**.
